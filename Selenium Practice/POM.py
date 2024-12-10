@@ -1,4 +1,4 @@
-base_page.py
+# base_page.py
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -41,11 +41,11 @@ class BasePage:
         except:
             return False
 
-
------------------------------------------------------------
-login_page.py
-from selenium.webdriver.common.by import By
-from base_page import BasePage
+#
+# -----------------------------------------------------------
+# login_page.py
+# from selenium.webdriver.common.by import By
+# from base_page import BasePage
 
 
 class LoginPage(BasePage):
@@ -78,10 +78,10 @@ class LoginPage(BasePage):
         self.click_login_button()
 
 
------------------------
-test_login.py
-import pytest
-from login_page import LoginPage
+# -----------------------
+# test_login.py
+# import pytest
+# from login_page import LoginPage
 
 
 def test_valid_login(driver):
