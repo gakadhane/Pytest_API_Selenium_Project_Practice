@@ -8,3 +8,4 @@ def is_married_before_run():
 
 def test_update(is_married_before_run):
     assert is_married_before_run == True
+    assert is_married_before_run == False
