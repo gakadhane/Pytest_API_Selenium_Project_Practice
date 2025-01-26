@@ -14,3 +14,6 @@ def test_selenium_GET():
     driver.maximize_window()
     driver.get("https://www.google.com/")
     driver.quit()
+
+
+
